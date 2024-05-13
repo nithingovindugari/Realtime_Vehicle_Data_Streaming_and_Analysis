@@ -27,17 +27,17 @@ Clone the repository:
 ```bash
 git clone https://github.com/your-username/realtime-vehicle-data-streaming.git
 cd realtime-vehicle-data-streaming
-
+```
 # Create a virtual environment and install dependencies:
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-
+```
 # Build and start the Docker containers:
 ```bash
 docker-compose up -d
-
+```
 
 ## Configuration
 
@@ -57,7 +57,7 @@ AWS_REDSHIFT_CLUSTER=your_redshift_cluster
 AWS_REDSHIFT_DATABASE=your_redshift_database
 AWS_REDSHIFT_USER=your_redshift_user
 AWS_REDSHIFT_PASSWORD=your_redshift_password
-
+```
 
 ## Running the Simulation
 
